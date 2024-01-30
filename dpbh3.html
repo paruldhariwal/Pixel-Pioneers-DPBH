@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EthicalWebGuard</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('PatternBG1.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #000;
+        }
+
+        #header {
+            position: relative;
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #logo {
+            width: 50px;
+            height: 50px;
+            border: 2px solid white;
+            margin-right: 10px;
+        }
+
+        #logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #title {
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            margin-top: 3px;
+        }
+
+        #nav {
+            background-color: #0B0B45;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+        }
+
+        #My-profile {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            background-color: #0B0B45;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        #contributions-subheading {
+            margin-top: 40px;
+            text-align: center;
+            color: #0B0B45;
+            font-weight: bold;
+        }
+
+        #cta-btn {
+            margin-top: 20px;
+            margin-left: 20px;
+            background-color: #0B0B45;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        #round-buttons-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .round-button {
+            display: inline-block;
+            background-color: #0B0B45;
+            color: white;
+            padding: 30px 50px;
+            border-radius: 60px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        #extension-ribbon {
+            background-color: #0B0B45;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 20px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            animation: moveText 5s linear infinite;
+        }
+
+        @keyframes moveText {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div id="logo">
+            <img src="WEBG.png" alt="Logo">
+        </div>
+        <div id="My-profile">
+            My Profile
+        </div>
+    </header>
+
+    <nav id="nav">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Services</a>
+        <a href="#">Resources</a>
+    </nav>
+
+    <div id="contributions-subheading">
+        Valid Contributions Received: <span style="color:white;">[Number]</span>
+    </div>
+
+    <div id="round-buttons-container">
+        <a href="#" class="round-button">Contribute</a>
+        <a href="#" class="round-button">Feedback</a>
+    </div>
+
+    <div id="extension-ribbon">
+        ‼️ Browser Extension now available on Chrome Extension Store. ADD IT TO YOUR BROWSER!!
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EthicalWebGuard</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('PatternBG1.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #000;
+        }
+
+        #header {
+            position: relative;
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #logo {
+            width: 50px;
+            height: 50px;
+            border: 2px solid white;
+            margin-right: 10px;
+        }
+
+        #logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #title {
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            margin-top: 3px;
+        }
+
+        #nav {
+            background-color: #0B0B45;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+        }
+
+        #welcome {
+            margin-top: 50px;
+            margin-left: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        #intro-text {
+            margin-top: 20px;
+            margin-left: 20px;
+            max-width: 25%;
+            font-size: 16px;
+            color: #000;
+        }
+
+        #cta-btn {
+            margin-top: 20px;
+            margin-left: 20px;
+            background-color: #0B0B45;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        #extension-ribbon {
+            background-color: #0B0B45;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 20px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            animation: moveText 5s linear infinite; /* Add animation */
+        }
+
+        @keyframes moveText {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div id="logo">
+            <img src="WEBG.png" alt="Logo">
+        </div>
+        <div id="title">
+            EthicalWebGuard
+        </div>
+    </header>
+
+    <nav id="nav">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Services</a>
+        <a href="#">Resources</a>
+    </nav>
+
+    <div id="welcome">
+        Welcome to<br> EthicalWebGuard!
+    </div>
+
+    <div id="intro-text">
+        Empower your online experience – our website stores detected dark patterns, 
+	arming you with warnings for a safer,
+        more transparent digital journey.
+    </div>
+
+    <a href="#" id="cta-btn">Sign In / Sign Up</a>
+
+    <div id="extension-ribbon">
+        ‼️ Browser Extension now available on Chrome Extension Store. ADD IT TO YOUR BROWSER!!
+    </div>
+</body>
+
+</html>
